@@ -64,9 +64,11 @@ Baseline	50.2%	24.9%
 + PRM	65.3%	30.6%
 + PRM + Clip/Delta	78.5% (+28.3)	31.4% (+6.5)
 Setup
+```
 bash
 pip install -r requirements.txt  # torch, transformers, datasets
 python train.py --model=qwen1.5 --dataset=gsm8k
+```
 Key Insights
 PRM > ORM for training-time rewards
 
